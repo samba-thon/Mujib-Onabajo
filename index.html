@@ -1,123 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Ermjay's Personal Homepage</title>
+  <meta charset="UTF-8">
+  <title>Event invite"</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: rgb(240, 248, 255);
-      color: rgb(33, 37, 41);
+      background-color: rgb(250, 250, 255);
+      color: rgb(40, 40, 40);
+      margin: 30px;
       line-height: 1.6;
-      margin: 0;
     }
 
-    .c-site-header {
-      background-color: rgb(30, 30, 80);
-      color: rgb(255, 255, 255);
-      padding: 20px;
+    h1 {
+      color: rgb(50, 50, 200);
       text-align: center;
     }
 
-    nav[aria-label="Main Site Links"] {
-      background-color: rgb(230, 230, 255);
-      padding: 10px;
-      text-align: center;
+    h2 {
+      color: rgb(30, 100, 60);
+      border-bottom: 2px solid rgb(180, 180, 180);
     }
 
-    nav a {
-      margin: 0 15px;
-      color: rgb(0, 0, 128);
+    .toc {
+      background-color: rgb(230, 240, 255);
+      padding: 15px;
+      border: 1px solid rgb(180, 200, 240);
+      margin-bottom: 30px;
+    }
+
+    .toc ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .toc li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: rgb(20, 80, 180);
       text-decoration: none;
-      font-weight: bold;
     }
 
-    main {
-      padding: 30px;
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img.workshop-img {
+      float: right;
+      width: 250px;
+      padding: 10px;
+      margin: 0 0 15px 20px;
+      border: 1px solid rgb(200, 200, 200);
       background-color: rgb(255, 255, 255);
     }
 
-    .profile-img {
-      float: right;
-      width: 250px;
-      margin-left: 20px;
-      border: 3px solid rgb(180, 180, 255);
+    ul, ol {
+      margin: 15px 0;
+      padding-left: 25px;
     }
 
-    iframe {
-      display: block;
-      margin: 30px auto;
-      width: 560px;
-      height: 315px;
-      border: none;
-    }
-
-    .footer {
-      background-color: rgb(50, 50, 70);
-      color: rgb(240, 240, 240);
-      text-align: center;
-      padding: 20px;
+    .section {
+      clear: both;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="c-site-header">
-    <h1>Ermjay — Aspiring Web Developer</h1>
-    <p>Lifelong learner building the future, one line of code at a time.</p>
-  </header>
+  <h1>Creative Coding Workshop</h1>
 
-  <!-- Navigation -->
-  <nav aria-label="Main Site Links">
-    <a href="#about">About Me</a>
-    <a href="#video">Inspiration</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="toc">
+    <h2>Table of Contents</h2>
+    <ul>
+      <li><a href="#about">About the Workshop</a></li>
+      <li><a href="#details">Workshop Details</a></li>
+      <li><a href="#agenda">Agenda</a></li>
+      <li><a href="#what-to-bring">What to Bring</a></li>
+    </ul>
+  </div>
 
-  <!-- Main Content -->
-  <main>
-    <section id="about">
-      <img 
-        class="profile-img" 
-        src="https://thumbs.dreamstime.com/z/blackmanlaptopcoder-black-flat-design-graphic-concept-coder-icon-programming-languages-laptop-white-background-152103872.jpg?ct=jpeg" 
-        alt="Cartoon of a black man coding" 
-      />
-      <h2>About Me</h2>
-      <p>
-        Hi, I'm Ermjay! I'm currently learning web development through the Code Your Future platform, a brilliant place for self-driven and community-based learning. I’m passionate about creating intuitive digital experiences and excited to grow as a developer.
-      </p>
-      <p>
-        I have always been curious about technology and problem-solving. Becoming a developer is not just a goal—it's part of a bigger journey to transform how I work and live. With each project, I’m building confidence, resilience, and skills that will shape my future career.
-      </p>
-      <p>
-        I’m particularly interested in front-end development and accessibility. I believe everyone deserves to experience the web equally, and that drives my motivation to build inclusive, responsive, and human-centered interfaces.
-      </p>
-    </section>
+  <div class="section" id="about">
+    <h2>About the Workshop</h2>
+    <img class="workshop-img" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Workshop image">
+    <p>
+      Join us for an exciting day of creative coding where beginners and intermediate coders come together to explore web development, generative art, and interactive design!
+    </p>
+    <p>
+      Whether you're a student, professional, or curious beginner, this workshop offers a relaxed and supportive space to learn new skills, meet others, and build something fun.
+    </p>
+  </div>
 
-    <!-- Video -->
-    <section id="video">
-      <h2>You Can Learn Anything 🎓</h2>
-      <p>
-        Learning to code hasn’t always been easy, but it’s been one of the most rewarding experiences of my life. Here's a video that keeps me inspired:
-      </p>
-      <iframe 
-        src="https://www.youtube.com/watch?v=JC82Il2cjqA&ab_channel=KhanAcademy" 
-        title="You Can Learn Anything - Khan Academy">
-      </iframe>
-    </section>
+  <div class="section" id="details">
+    <h2>Workshop Details</h2>
+    <ul>
+      <li><strong>Date:</strong> Saturday, July 20, 2025</li>
+      <li><strong>Time:</strong> 10:00 AM – 4:00 PM</li>
+      <li><strong>Location:</strong> Innovation Hub, City Centre</li>
+      <li><strong>Hosted by:</strong> Code for Creatives</li>
+    </ul>
+  </div>
 
-    <!-- Contact -->
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>You can reach me at <strong>taj.gmail.com</strong>. I’d love to hear from fellow learners, mentors, and tech professionals.</p>
-    </section>
-  </main>
+  <div class="section" id="agenda">
+    <h2>Agenda</h2>
+    <ol>
+      <li>10:00 – Welcome & Introduction</li>
+      <li>10:30 – Creative Coding Basics</li>
+      <li>12:00 – Lunch Break (provided)</li>
+      <li>1:00 – Hands-on Coding Session</li>
+      <li>3:00 – Group Showcase</li>
+    </ol>
+  </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; 2025 Ermjay.</p>
-  </footer>
+  <div class="section" id="what-to-bring">
+    <h2>What to Bring</h2>
+    <ul>
+      <li>A laptop (with charger)</li>
+      <li>Notebook and pen</li>
+      <li>Your creativity and curiosity!</li>
+    </ul>
+    <p>
+      Spaces are limited — be sure to register early and secure your spot. See you there!
+    </p>
+  </div>
 
 </body>
 </html>
